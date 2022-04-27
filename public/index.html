@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital@0;1&family=Open+Sans&family=Roboto&family=Rubik:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Portfolio tailwindcss ulangan</title>
+</head>
+
+<body class="bg-[#dddfe6]">
+    <!-- Header Section Start -->
+    <header class="fixed navbar top-0 right-0 p-4 lg:px-24 xl:px-52 md:flex md:flex-wrap">
+        <nav class="navbar-mobile md:navbar-medium-screen">
+            <div class="md:col-start-1 row-start-1">
+                <h1 class="font-rubik font-bold text-primary text-2xl">Dzikri</h1>
+            </div>
+            <div class="cursor-pointer md:hidden">
+                <div class=" hamburger flex flex-col justify-between w-9 h-7">
+                    <span
+                        class="block full h-[3px] bg-slate-600 rounded-full origin-left transition duration-300"></span>
+                    <span class="block full h-[3px] bg-slate-600 rounded-full transition duration-300"></span>
+                    <span
+                        class="block full h-[3px] bg-slate-600 rounded-full origin-left transition duration-300"></span>
+                </div>
+            </div>
+            <div class="navmenu-hamburger-active md:navmenu-medium-screen lg:pr-[70px] xl:pr-[194px] hidden ">
+                <ul class="flex flex-col justify-between md:pl-3 md:flex md:flex-row md:justify-between md:w-full">
+                    <li>
+                        <div class="group">
+                            <a href="#home" class="font-rubik font-semibold text-slate-700">Home
+                                <span
+                                    class="block bg-slate-600 w-0 group-hover:w-full h-[3px] rounded-full transition-all duration-300"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="group">
+                            <a href="#about" class="font-rubik font-semibold text-slate-700">About
+                                <span
+                                    class="block bg-slate-600 w-0 group-hover:w-full h-[3px] rounded-full transition-all duration-300"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="group">
+                            <a href="#portfolio" class="font-rubik font-semibold text-slate-700">Portfolio
+                                <span
+                                    class="block bg-slate-600 w-0 group-hover:w-full h-[3px] rounded-full transition-all duration-300"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="group">
+                            <a href="#blog" class="font-rubik font-semibold text-slate-700">Blog
+                                <span
+                                    class="block bg-slate-600 w-0 group-hover:w-full h-[3px] rounded-full transition-all duration-300"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="group">
+                            <a href="#contact" class="font-rubik font-semibold text-slate-700">Contact
+                                <span
+                                    class="block bg-slate-600 w-0 group-hover:w-full h-[3px] rounded-full transition-all duration-300"></span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36 px-4 lg:px-24 xl:px-52 md:flex md:flex-wrap">
+        <div class="container md:w-1/2">
+            <h3 class="font-rubik font-semibold text-slate-800 text-md pb-4">Hello semuanya👋, saya</h3>
+            <div class="pb-4">
+                <h1 class="font-rubik text-primary font-bold text-6xl -ml-1">Dzikri Alan</h1>
+                <p class="font-montserrat text-slate-500 italic text-sm -mt-2">Lecturer & Professor Computer Science</p>
+            </div>
+            <p class="font-montserrat  text-slate-900 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Fugit nihil reprehende Lorem ipsum dolor sit amet. adipisicing elit. Veritatis, dolore!</p>
+            <div class="pb-12">
+                <button
+                    class="p-2 font-rubik bg-primary text-slate-100 rounded-full hover:bg-slate-500 font-bold">Hubungi
+                    Saya</button>
+            </div>
+        </div>
+        <div class="container relative md:w-1/2">
+            <div class="grid w-full h-[420px] grid-cols-2 grid-rows-2">
+                <span class="block w-full h-full col-start-1 row-start-1 bg-primary"></span>
+                <span class="block w-full h-full col-start-2 row-start-2 bg-primary"></span>
+            </div>
+            <div class="absolute right-0 bottom-0">
+                <img src="/public/img/ikal.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-24 px-4 lg:px-24 xl:px-52 sm:flex sm:flex-wrap">
+        <div class="container sm:w-1/2 sm:pr-4 md:pr-4 lg:pr-4 xl:pr-4 pb-10">
+            <h1 class=" font-rubik font-bold text-4xl text-primary pb-2">About Me</h1>
+            <p class="font-open text-slate-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quo
+                autem totam consectetur dolores mollitia. Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container sm:w-1/2 sm:pl-4 md:pl-4 lg:pl-4 xl:pl-4">
+            <h1 class="font-rubik font-bold text-4xl text-primary pb-2">Mari Berteman</h1>
+            <p class="font-open text-slate-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quo
+                autem totam consectetur dolores mollitia. Lorem ipsum dolor sit amet.</p>
+            <div class="pt-4">
+                <ul class="flex gap-5">
+                    <li><a href="#"><i
+                                class='bx bxl-twitter p-2 rounded-full text-2xl hover:bg-primary hover:text-white text-slate-600 border-2 border-slate-300 transition duration-300'></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class='bx bxl-twitch p-2 rounded-full text-2xl hover:bg-primary hover:text-white text-slate-600 border-2 border-slate-300 transition duration-300'></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class='bx bxl-instagram p-2 rounded-full text-2xl hover:bg-primary hover:text-white text-slate-600 border-2 border-slate-300 transition duration-300'></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class='bx bxl-youtube p-2 rounded-full text-2xl hover:bg-primary hover:text-white text-slate-600 border-2 border-slate-300 transition duration-300'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
