@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans&family=Roboto&family=Rubik:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Portfolio tailwindcss ulangan</title>
+</head>
+
+<body>
+
+    <!-- Header Section Start -->
+    <header class="navbar-mobile">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">
+                        Dzikri Alan
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" type="button" name="hamburger" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-left transition-all duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition-all duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-left transition-all duration-300 ease-in-out"></span>
+                    </button>
+
+                    <nav id="navmenu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w w-full right-4 top-full max-w-[258px] lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group"><a href="#home"
+                                    class="text-base font-rubik text-slate-900 py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group"><a href="#about"
+                                    class="text-base font-rubik text-slate-900 py-2 mx-8 flex group-hover:text-primary">About
+                                    Me</a>
+                            </li>
+                            <li class="group"><a href="#portfolio"
+                                    class="text-base font-rubik text-slate-900 py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group"><a href="#clients"
+                                    class="text-base font-rubik text-slate-900 py-2 mx-8 flex group-hover:text-primary">Client</a>
+                            </li>
+                            <li class="group"><a href="#blog"
+                                    class="text-base font-rubik text-slate-900 py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group"><a href="#contact"
+                                    class="text-base font-rubik text-slate-900 py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container ">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2 ">
+                    <h1 class="text-base font-semibold text-primary font-rubik leading-10 md:text-xl ">Hello
+                        semua👋, saya <span
+                            class="block font-bold text-slate-900 text-5xl font-rubik -ml-1 lg:text-6xl">Dzikri
+                            Alan</span></h1>
+                    <h2 class="text-sm text-secondary  mb-5 italic font-montserrat">Lecturer & Professor
+                        Computer Science
+                    </h2>
+                    <p class="font-medium text-slate-900 mb-10 leading-relaxed font-open">Lorem ipsum dolor sit
+                        amet consectetur
+                        adipisicing elit. Accusantium voluptatibus dolore quod
+                        facilis porro provident?</p>
+                    <a href="#"
+                        class="text-base text-white bg-primary py-3 px-4 rounded-full hover:shadow-lg hover:bg-opacity-80 transition-all duration-300 ease-in-out ">Hubungi
+                        Saya</a>
+                </div>
+                <div class="w-full self-end px-4 mt-10 lg:mt-0 relative h-max lg:w-1/2 ">
+                    <img src="/public/img/ikal.png" alt="" class="w-full">
+                    <div class="grid grid-cols-2 grid-rows-2 absolute bottom-0 right-0 px-4 -z-10 w-full h-full">
+                        <span class="block bg-primary"></span>
+                        <span class="block col-start-2 row-start-2 bg-primary"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End  -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container ">
+            <div class="flex flex-wrap ">
+                <div class="w-full px-4 lg:w-1/2 mb-10 ">
+                    <h4 class="font-bold text-primary uppercase text-2xl font-rubik mb-4">About Me</h4>
+                    <p class="font-medium text-base text-secondary font-open ">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Voluptates alias pariatur odit veniam
+                        qui, tenetur, velit
+                        odio impedit soluta quam earum illo nemo itaque maxime asperiores.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 ">
+                    <h3 class="font-rubik font-bold text-primary text-2xl mb-4">Mari Berteman</h3>
+                    <p class="font-medium text-base text-secondary font-open mb-6 ">Lorem ipsum dolor sit amet
+                        consectetur
+                        voluptatum. Perferendis debitis dolores, rerum, unde id, quaerat quidem sapiente
+                        recusandae eaque nemo nobis. Saepe!</p>
+                    <div class="flex items-center">
+                        <a href="www.instagram.com" class="icon-style transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="www.facebook.com" class="icon-style transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="www.discord.com" class="icon-style transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-telegram'></i>
+                        </a>
+                        <a href="www.twitter.com" class="icon-style transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 font-rubik">Portfolio</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4 font-rubik">Portfolio Terbaru</h2>
+                    <p class="font-medium text-md text-secondary font-montserrat">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Harum nisi numquam reiciendis ratione iusto! Distinctio?</p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 px-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/public/img/portfolio/1.png" alt="landing-page" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3 font-rubik">Landing Page Kuon Yagi</h3>
+                    <p class="font-medium text-base text-secondary font-montserrat">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nobis, iure?</p>
+                </div>
+                <div class="mb-12 px-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/public/img/portfolio/2.png" alt="landing-page" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3 font-rubik">Landing Page Thaimophotography
+                    </h3>
+                    <p class="font-medium text-base text-secondary font-montserrat">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nobis, iure?</p>
+                </div>
+                <div class="mb-12 px-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/public/img/portfolio/3.png" alt="landing-page" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3 font-rubik">Landing Page David Milan</h3>
+                    <p class="font-medium text-base text-secondary font-montserrat">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nobis, iure?</p>
+                </div>
+                <div class="mb-12 px-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="/public/img/portfolio/4.png" alt="landing-page" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3 font-rubik">Landing Page Le Cantiche 1320
+                    </h3>
+                    <p class="font-medium text-base text-secondary font-montserrat">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nobis, iure?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Client Section Start -->
+    <section id="clients" class="pt-36 pb-32 bg-slate-700">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-slate-900 mb-2 font-rubik">Clients</h4>
+                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl font-rubik">Yang Pernah
+                        Bekerja Sama</h2>
+                    <p class="font-medium text-md text-slate-200 font-montserrat">
+                        Lorem ipsum dolor sit, amet consec Lorem ipsum dolor sit amet. tetur adipisicing elit. Vel,
+                        quaerat rerum modi in hic ab.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#"
+                        class="max-w-[128px] mx-4 py-4 grayscale opacity-90 transition-all duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/public/img/clients/google.svg" alt="google">
+                    </a>
+                    <a href="#"
+                        class="max-w-[128px] mx-4 py-4 grayscale opacity-90 transition-all duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/public/img/clients/gojek.svg" alt="gojek">
+                    </a>
+                    <a href="#"
+                        class="max-w-[128px] mx-4 py-4 grayscale opacity-90 transition-all duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/public/img/clients/ruangguru.svg" alt="ruangguru.svg">
+                    </a>
+                    <a href="#"
+                        class="max-w-[128px] mx-4 py-4 grayscale opacity-90 transition-all duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/public/img/clients/tokopedia.svg" alt="tokopedia">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="pt-36 pb-12 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 font-rubik">Blog</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl font-rubik">Tulisan
+                        Terkini
+                    </h2>
+                    <p class="font-medium text-md text-secondary font-montserrat">
+                        Lorem ipsum dolor sit, amet consec Lorem ipsum dolor sit amet. tetur adipisicing elit. Vel,
+                        quaerat rerum modi in hic ab.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="https://source.unsplash.com/360x200?programming" alt="Programming" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3><a href="#"
+                                    class="block mb-3 font-semibold text-xl text-slate-900 truncate font-rubik">Tips
+                                    Belajar Programming</a></h3>
+                            <p class="font-medium text-base text-secondary mb-6 font-montserrat">Lorem ipsum, dolor sit
+                                amet consectetur
+                                adipisicing elit. A dolorem, esse porro numquam veniam libero!</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacty-80">Baca
+                                Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="https://source.unsplash.com/360x200?mechanical+keyboard" alt="Keyboard"
+                            class="w-full">
+                        <div class="py-8 px-6">
+                            <h3><a href="#"
+                                    class="block mb-3 font-semibold text-xl text-slate-900 truncate font-rubik">Review
+                                    Keyboard GMMK Pro</a></h3>
+                            <p class="font-medium text-base text-secondary mb-6 font-montserrat">Lorem ipsum, dolor sit
+                                amet consectetur
+                                adipisicing elit. A dolorem, esse porro numquam veniam libero!</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacty-80">Baca
+                                Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="https://source.unsplash.com/360x200?cofee" alt="Cofee" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3><a href="#"
+                                    class="block mb-3 font-semibold text-xl text-slate-900 truncate font-rubik">Menikmati
+                                    Secangkir Kopi</a></h3>
+                            <p class="font-medium text-base text-secondary mb-6 font-montserrat">Lorem ipsum, dolor sit
+                                amet consectetur
+                                adipisicing elit. A dolorem, esse porro numquam veniam libero!</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacty-80">Baca
+                                Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 font-rubik">Contact</h4>
+                    <h2 class="font-bold text-slate-900 text-3xl mb-4 sm:text-4xl lg:text-5xl font-rubik">Hubungi Kami
+                    </h2>
+                    <div class="font-medium text-md text-secondary md:text-lg font-montserrat">Lorem ipsum dolor sit
+                        amet consectetur
+                        adipisicing elit. Id non fugiat dolorum itaque eum magni?</div>
+                </div>
+
+                <form>
+                    <div class="w-full lg:w-2/3 lg:mx-auto">
+                        <div class="w-full px-4 mb-8">
+                            <label for="name" class="text-base font-bold text-primary">Email
+                                <input type="text" id="name"
+                                    class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus-outline focus:ring-primary focus:ring-1 focus:border-primary">
+                            </label>
+                        </div>
+                        <div class="w-full px-4 mb-8">
+                            <label for="email" class="text-base font-bold text-primary">Email
+                                <input type="email" id="name"
+                                    class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus-outline focus:ring-primary focus:ring-1 focus:border-primary">
+                            </label>
+                        </div>
+                        <div class="w-full px-4 mb-8">
+                            <label for="message" class="text-base font-bold text-primary">Message
+                                <textarea name="message" for="message" id="" cols="30" rows="3" type="email" id="name"
+                                    class="w-full bg-slate-200 text-slate-900 p-4 rounded-md focus-outline focus:ring-primary focus:ring-1 focus:border-primary text-montserrat"></textarea>
+                            </label>
+                        </div>
+                        <div class="w-full px-4">
+                            <button
+                                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow lg:transition-all duration-500">Kirim</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="bg-slate-900 pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">Dzikri</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+                    <p>DzikriAlan@gmail.com</p>
+                    <p>Jl.plawangan lempuyang No.6</p>
+                    <p>Indramayu</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-sembold text-xl text-white mb-5">Kategori Tulisan</h3>
+                    <ul class="text-slate-300">
+                        <li><a href="#" class="inline-bolck text-base hover:text-primary">Programming</a></li>
+                        <li><a href="#" class="inline-bolck text-base hover:text-primary">Technology</a></li>
+                        <li><a href="#" class="inline-bolck text-base hover:text-primary">Life Style</a></li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-sembold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li><a href="#home" class="inline-bolck text-base hover:text-primary">Home</a></li>
+                        <li><a href="#about" class="inline-bolck text-base hover:text-primary">About</li>
+                        <li><a href="#portfolio" class="inline-bolck text-base hover:text-primary">Portfolio</a></li>
+                        <li><a href="#clients" class="inline-bolck text-base hover:text-primary">Client</a></li>
+                        <li><a href="#blog" class="inline-bolck text-base hover:text-primary">Blog</a></li>
+                        <li><a href="#contact" class="inline-bolck text-base hover:text-primary">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="w-full pt-10 border-t">
+                    <div class="flex items-center justify-center mb-5">
+                        <a href="www.instagram.com"
+                            class="icon-style text-slate-100 transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="www.facebook.com"
+                            class="icon-style text-slate-100 transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="www.discord.com"
+                            class="icon-style text-slate-100 transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-telegram'></i>
+                        </a>
+                        <a href="www.twitter.com"
+                            class="icon-style text-slate-100 transition-all duration-300 ease-in-out">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                    <p class="font-medium text-xs text-slate-500 text-center">Dibuat Oleh <a
+                            href="https://instagram.com/_dzikrialan" target="_blank"
+                            class="text-slate-100 font-bold">Dzikri Alan</a> Menggunakan
+                        <a href="https://tailwindcss.com" target="_blank" class="text-sky-500">Tailwind CSS</a> 3
+                    </p>
+                </div>
+            </div>
+    </footer>
+    <!-- Footer Section End -->
+    <script src="script.js"></script>
+</body>
+
+</html>

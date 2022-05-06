@@ -1,9 +1,14 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      padding: '16px',
+    },
     extend: {
       colors: {
-        primary: '#6b7280',
+        primary: '#64748b',
+        secondary: '#0f172a',
       },
       fontFamily: {
         rubik: ['Rubik'],
